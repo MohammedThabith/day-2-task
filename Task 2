@@ -1,0 +1,16 @@
+Question 1) write a bloge on the difference between document & window object?
+Answer :
+      Document:
+      -It represents any HTML document or web page that is loaded in the browser.
+      -All the tags, elements with attributes in HTML are part of the document.
+      -The document is part of BOM (browser object model) and dom (Document object model)
+      -We can access the document from a window using the window.document .
+      -Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title .
+      
+      Window:
+      -It represents a browser window or frame that displays the contents of the webpage. 
+      -Global objects, functions, and variables of JavaScript are members of the window object.
+      -The window is part of BOM.
+      -We can access the window from the window only.
+      -Properties of the window object cannot be accessed by the document object.
+      -----------------------------------------------------------------------------------------------------------------------------------------------------------------
